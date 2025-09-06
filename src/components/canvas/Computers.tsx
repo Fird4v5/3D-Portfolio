@@ -1,6 +1,6 @@
 import React, { Suspense, useEffect, useState } from "react";
 import { Canvas } from "@react-three/fiber";
-import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
+import { AdaptiveDpr, AdaptiveEvents, OrbitControls, Preload, useGLTF } from "@react-three/drei";
 
 import CanvasLoader from "../Loader";
 
@@ -21,7 +21,7 @@ const Computers = ({ isMobile }: MobileProps) => {
         position={[0, 0, 0]}
         intensity={5}
         castShadow
-        shadow-mapSize={[2048, 2048]}
+        shadow-mapSize={[1024, 1024]}
         shadow-camera-near={1}
         shadow-camera-far={100}
         shadow-camera-left={-20}
@@ -29,22 +29,14 @@ const Computers = ({ isMobile }: MobileProps) => {
         shadow-camera-top={20}
         shadow-camera-bottom={-20}
       />
-      <spotLight
-        position={[0, 5, 0]}
-        angle={10}
-        penumbra={1}
-        intensity={10}
-        castShadow
-      />
       <rectAreaLight
-        width={5}
+        width={3}
         height={20}
-        intensity={50}
+        intensity={100}
         color="#ffffff"
         position={[0, 40, 0]}
         rotation={[-Math.PI / 2, 0, 0]} // point straight down
       />
-
 
       {/* Fill light to brighten dark side */}
       <pointLight intensity={2} />
@@ -82,7 +74,7 @@ const ComputersCanvas = () => {
     <Canvas
       frameloop="always"
       shadows
-      dpr={[3, 6]}
+      dpr={[1, Math.min(3, window.devicePixelRatio)]}
       camera={{ position: [20, 3, 5], fov: 25 }}
       gl={{ preserveDrawingBuffer: true }}
     >
@@ -94,6 +86,8 @@ const ComputersCanvas = () => {
         />
         <Computers isMobile={isMobile} />
       </Suspense>
+      <AdaptiveDpr pixelated/>
+      <AdaptiveEvents />
       <Preload all />
     </Canvas>
   );
