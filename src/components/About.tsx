@@ -45,11 +45,11 @@ const About = () => {
       {/* Section heading */}
       <motion.div variants={textVariant(0.2)}>
         <p className={styles.sectionSubText}>Introduction</p>
-        <h2 className={styles.sectionHeadText}>Overview</h2>
+        <h2 className={styles.sectionHeadText}>Overview.</h2>
       </motion.div>
 
       {/* Grid: text + cards */}
-      <div className="mt-8 grid grid-cols-1 md:grid-cols-2 gap-10 max-w-6xl lg:mx-auto items-start">
+      <div className=" grid grid-cols-1 md:grid-cols-2 gap-10 max-w-6xl lg:mx-auto items-center">
         {/* About paragraph */}
         <motion.p
           variants={fadeIn("up", "tween", 0.3, 0.6)}
@@ -62,6 +62,8 @@ const About = () => {
           that, I also build Telegram bots and MiniApps, giving me experience
           beyond the usual web stack. I learn fast, adapt to any tool, and
           enjoy making projects feel polished, interactive, and alive.
+          <br/><br/>
+          <span className="font-bold">Languages:</span> English (IELTS 8.0), Uzbek (Native), Russian (A2-B1)
         </motion.p>
 
         {/* Services */}

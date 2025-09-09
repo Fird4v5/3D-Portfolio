@@ -26,37 +26,45 @@ import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import live from "./live.png"; 
+
+import tribute from "./projects/tribute.png"; 
+import technicalD from "./projects/technicalD.png"; 
+import surveyForm from "./projects/SurveyForm.png"; 
+import amphora from "./projects/amphora.png";
+import personalPortfolio from "./projects/personalPortfolio.png"; 
+import calculator from "./projects/calculator.png"; 
+import cashRegister from "./projects/cashRegister.png"; 
+import imageGallery from "./projects/imageGallery.png"; 
+import lengthConverter from "./projects/lengthConverter.png";
+import palindrome from "./projects/palindrome.png"; 
+import roman from "./projects/roman.png"; 
+import todolist from "./projects/todolist.png"; 
+import pokemon from "./projects/pokemon.png"; 
+import tenzies from "./projects/tenzies.png"; 
+import assembly from "./projects/assembly.png"; 
+import meme from "./projects/meme.png"; 
+import vanlife from "./projects/vanlife.png"; 
+import refineD from "./projects/refineD.png";
+import graphql from "./tech/graphql.svg"; 
+import refine from "./tech/refine.png"; 
+import nextjs from "./tech/nextjs.svg"; 
+import nestjs from "./tech/nestjs.svg";
+import quickcart from "./projects/quickcart.png"; 
 
 export {
-  logo,
-  backend,
-  creator,
-  mobile,
-  web,
-  github,
-  menu,
-  close,
-  css,
-  docker,
-  figma,
-  git,
-  html,
-  javascript,
-  mongodb,
-  nodejs,
-  reactjs,
-  redux,
-  tailwind,
-  typescript,
-  threejs,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
-  carrent,
-  jobit,
-  tripguide,
+  logo, backend, creator, mobile,
+  web, github, menu, close,
+  css, docker, figma, git,
+  html, javascript, mongodb, nodejs,
+  reactjs, redux, tailwind, typescript,
+  threejs, meta, shopify, starbucks,
+  tesla, live, graphql, refine, nextjs,
+  nestjs,
+
+  tribute, technicalD, surveyForm, amphora, 
+  personalPortfolio, calculator, cashRegister,
+  imageGallery, lengthConverter, palindrome,  
+  roman, todolist, pokemon, tenzies, assembly,
+  meme, vanlife, refineD, quickcart
 };
