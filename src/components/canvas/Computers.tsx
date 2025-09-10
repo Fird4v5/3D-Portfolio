@@ -1,4 +1,4 @@
-import { Suspense, useEffect, useState } from "react";
+import{ Suspense, useEffect, useState } from "react";
 import { Canvas } from "@react-three/fiber";
 import { AdaptiveDpr, AdaptiveEvents, OrbitControls, Preload, useGLTF } from "@react-three/drei";
 
@@ -9,7 +9,7 @@ type MobileProps = {
 };
 
 const Computers = ({ isMobile }: MobileProps) => {
-  const computer = useGLTF("./desktop_pc/scene.gltf");
+  const computer = useGLTF("./desktop_pc/scene-optimized.glb");
 
   return (
     <group>
