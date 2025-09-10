@@ -56,10 +56,6 @@ export const navLinks = [
     title: "Projects",
   },
   {
-    id: "achievements", 
-    title: "Achievements"
-  },
-  {
     id: "contact",
     title: "Contact",
   },
@@ -67,8 +63,30 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
-    icon: web,
+    title: "Responsive Web Design",
+    issuer: "FreeCodeCamp", 
+    description: "300+ hours of work" ,
+    view: "https://www.freecodecamp.org/certification/firdavs_yuldashev/responsive-web-design",
+  },
+  {
+    title: "Javascript Algorithms & Data structures",
+    issuer: "FreeCodeCamp", 
+    description: "300+ hours of work" ,
+    view: "https://www.freecodecamp.org/certification/firdavs_yuldashev/javascript-algorithms-and-data-structures-v8",  
+  },
+  {
+    title: "Learn React",
+    issuer: "Scrimba", 
+    description: "15.1 hours | 355 lessons" ,
+    view: "https://scrimba.com/certificate-cert24zAwPPowNTqrL5Y1D23v36cH9N2KWZpxcq9a",  
+
+  },
+  {
+    title: "Advanced React",
+    issuer: "Scrimba", 
+    description: "13.2 hours | 172 lessons" ,
+    view: "https://scrimba.com/certificate-cert2JbLs3qgAyjUcjD1qv5Fyhp4d3SKNhiU41xLqb",  
+  
   },
 ];
 

@@ -72,7 +72,7 @@ const ComputersCanvas = () => {
 
   return (
     <Canvas
-      frameloop="always"
+      frameloop="demand"
       shadows
       dpr={[1, Math.min(3, window.devicePixelRatio)]}
       camera={{ position: [20, 3, 5], fov: 25 }}
