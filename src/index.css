@@ -45,7 +45,7 @@
   .shadow-card { box-shadow: 0px 35px 120px -15px #211e35; }
 
   /* Custom background images */
-  .bg-hero-pattern { background-image: url('../../public/herobg.png'); }
+  .bg-hero-pattern { background-image: url('public/herobg.png'); }
 
   /* Custom breakpoints */
   @media (min-width: 450px) {
