@@ -1,6 +1,12 @@
-import{ Suspense, useEffect, useState } from "react";
+import { Suspense, useEffect, useState } from "react";
 import { Canvas } from "@react-three/fiber";
-import { AdaptiveDpr, AdaptiveEvents, OrbitControls, Preload, useGLTF } from "@react-three/drei";
+import {
+  AdaptiveDpr,
+  AdaptiveEvents,
+  OrbitControls,
+  Preload,
+  useGLTF,
+} from "@react-three/drei";
 
 import CanvasLoader from "../Loader";
 
@@ -14,14 +20,14 @@ const Computers = ({ isMobile }: MobileProps) => {
   return (
     <group>
       {/* Softer ambient fill */}
-      <hemisphereLight intensity={1} groundColor="black" />
+      <hemisphereLight intensity={isMobile ? 0.6 : 1} groundColor="black" />
 
-      {/* Stronger main shadow light */}
+      {/* Main shadow light - heavy for desktop, lighter for mobile */}
       <directionalLight
         position={[0, 0, 0]}
-        intensity={5}
+        intensity={isMobile ? 2.5 : 5}
         castShadow
-        shadow-mapSize={[1024, 1024]}
+        shadow-mapSize={isMobile ? [512, 512] : [1024, 1024]}
         shadow-camera-near={1}
         shadow-camera-far={100}
         shadow-camera-left={-20}
@@ -29,21 +35,25 @@ const Computers = ({ isMobile }: MobileProps) => {
         shadow-camera-top={20}
         shadow-camera-bottom={-20}
       />
-      <rectAreaLight
-        width={3}
-        height={20}
-        intensity={100}
-        color="#ffffff"
-        position={[0, 40, 0]}
-        rotation={[-Math.PI / 2, 0, 0]} // point straight down
-      />
+
+      {/* Only add expensive rect light for desktop */}
+      {!isMobile && (
+        <rectAreaLight
+          width={3}
+          height={20}
+          intensity={100}
+          color="#ffffff"
+          position={[0, 40, 0]}
+          rotation={[-Math.PI / 2, 0, 0]}
+        />
+      )}
 
       {/* Fill light to brighten dark side */}
-      <pointLight intensity={2} />
+      <pointLight intensity={isMobile ? 1 : 2} />
 
       <primitive
         object={computer.scene}
-        scale={isMobile ? 0.6 : 0.75}
+        scale={isMobile ? 0.55 : 0.75}
         position={isMobile ? [0, -3, -2.2] : [0, -3.25, -1.5]}
         rotation={[-0.01, -0.2, -0.1]}
         castShadow
@@ -74,19 +84,25 @@ const ComputersCanvas = () => {
     <Canvas
       frameloop="demand"
       shadows
-      dpr={[1, Math.min(3, window.devicePixelRatio)]}
-      camera={{ position: [20, 3, 5], fov: 25 }}
-      gl={{ preserveDrawingBuffer: true }}
+      dpr={isMobile ? [1, 2] : [1, Math.min(3, window.devicePixelRatio)]}
+      camera={{ position: [20, 3, 5], fov: isMobile ? 28 : 25 }}
+      gl={{
+        preserveDrawingBuffer: !isMobile, // lighter on mobile
+        powerPreference: "high-performance",
+      }}
     >
       <Suspense fallback={<CanvasLoader />}>
         <OrbitControls
           enableZoom={false}
+          enablePan={false}
           maxPolarAngle={Math.PI / 2}
           minPolarAngle={Math.PI / 2}
         />
         <Computers isMobile={isMobile} />
       </Suspense>
-      <AdaptiveDpr pixelated/>
+
+      {/* Auto-adjust quality */}
+      <AdaptiveDpr />
       <AdaptiveEvents />
       <Preload all />
     </Canvas>
