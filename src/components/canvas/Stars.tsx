@@ -1,4 +1,4 @@
-import { useState, useRef, Suspense } from "react"; 
+import { useRef, Suspense } from "react"; 
 import { Canvas, useFrame } from "@react-three/fiber";
 import { Points, PointMaterial, Preload } from "@react-three/drei"; 
 import { inSphere } from "maath/random"
@@ -9,7 +9,7 @@ const Stars = () => {
   
   const sphere = inSphere(new Float32Array(5000), { radius: 1.2 }) as Float32Array; 
 
-  useFrame((state, delta) => {
+  useFrame((_, delta) => {
     if (ref.current) {  
       ref.current.rotation.x -= delta / 10; 
       ref.current.rotation.y -= delta / 15; 

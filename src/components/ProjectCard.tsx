@@ -17,8 +17,7 @@ interface ProjectCardProps {
 
 const ProjectCard = ({
   index,
-  name,
-  category,
+  name, 
   description,
   tags,
   image,
