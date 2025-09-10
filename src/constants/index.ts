@@ -192,7 +192,7 @@ const projectsInfo = [
       { name: "tailwindcss", color: "pink-text-gradient" },
       { name: "clerk", color: "green-text-gradient" },
     ],
-    image: "/projects/quickcart.png",
+    image: "/projects/quickcart.webp",
     source_code_link: "https://github.com/Fird4v5/QuickCart",
     live_code_link: "https://quickcart.firdavs.codes",
   },
@@ -217,7 +217,7 @@ const projectsInfo = [
     description:
       "A van rental platform with host dashboard, income and reviews tracking, and van listings. Features Firebase auth, filters, and nested routing.",
     tags: [{ name: "react", color: "blue-text-gradient" }],
-    image: "/projects/vanlife.png",
+    image: "/projects/vanlife.webp",
     source_code_link: "https://github.com/Fird4v5/VanLife",
     live_code_link: "https://vanlife.firdavs.codes",
   },
@@ -227,7 +227,7 @@ const projectsInfo = [
     description:
       "Create memes with custom text and drag positioning. Includes next-meme navigation and download option for quick sharing.",
     tags: [{ name: "react", color: "blue-text-gradient" }],
-    image: "/projects/meme.png",
+    image: "/projects/meme.webp",
     source_code_link: "https://github.com/Fird4v5/Meme-Generator",
     live_code_link: "https://meme-generator.firdavs.codes",
   },
@@ -279,7 +279,7 @@ const projectsInfo = [
     description:
       "Convert numbers into Roman numerals instantly with a polished, minimal design.",
     tags: [{ name: "javascript", color: "green-text-gradient" }],
-    image: "/projects/roman.png",
+    image: "/projects/roman.webp",
     source_code_link:
       "https://github.com/Fird4v5/JavaScript-Vanilla-Projects/tree/main/BASIC%20projects/Roman%20Numeral%20Converter",
     live_code_link: "https://roman-numeral-converter.firdavs.codes",
@@ -290,7 +290,7 @@ const projectsInfo = [
     description:
       "Check if text reads the same backward and forward with a clean, instant validator.",
     tags: [{ name: "javascript", color: "green-text-gradient" }],
-    image: "/projects/palindrome.png",
+    image: "/projects/palindrome.webp",
     source_code_link:
       "https://github.com/Fird4v5/JavaScript-Vanilla-Projects/tree/main/BASIC%20projects/Palindrome%20Checker",
     live_code_link: "https://palindrome-checker.firdavs.codes",
@@ -312,7 +312,7 @@ const projectsInfo = [
     description:
       "A responsive gallery with lightbox, navigation controls, and captions for a modern experience.",
     tags: [{ name: "javascript", color: "green-text-gradient" }],
-    image: "/projects/imageGallery.png",
+    image: "/projects/imageGallery.webp",
     source_code_link:
       "https://github.com/Fird4v5/JavaScript-Vanilla-Projects/tree/main/BASIC%20projects/Image%20Gallery",
     live_code_link: "https://image-gallery.firdavs.codes",
@@ -334,7 +334,7 @@ const projectsInfo = [
     description:
       "A responsive calculator with standard functions and a clean, intuitive design.",
     tags: [{ name: "javascript", color: "green-text-gradient" }],
-    image: "/projects/calculator.png",
+    image: "/projects/calculator.webp",
     source_code_link:
       "https://github.com/Fird4v5/JavaScript-Vanilla-Projects/tree/main/BASIC%20projects/Calculator",
     live_code_link: "https://calculator.firdavs.codes",
