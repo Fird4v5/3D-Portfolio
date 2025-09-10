@@ -192,7 +192,7 @@ const projectsInfo = [
       { name: "tailwindcss", color: "pink-text-gradient" },
       { name: "clerk", color: "green-text-gradient" },
     ],
-    image: "public/projects/quickcart.png",
+    image: "/projects/quickcart.png",
     source_code_link: "https://github.com/Fird4v5/QuickCart",
     live_code_link: "https://quickcart.firdavs.codes",
   },
@@ -207,7 +207,7 @@ const projectsInfo = [
       { name: "graphql", color: "pink-text-gradient" },
       { name: "refine", color: "green-text-gradient" },
     ],
-    image: "public/projects/refineD.png",
+    image: "/projects/refineD.png",
     source_code_link: "https://github.com/Fird4v5/Refine-Dashboard",
     live_code_link: "https://refine-dashboard.firdavs.codes",
   },
@@ -217,7 +217,7 @@ const projectsInfo = [
     description:
       "A van rental platform with host dashboard, income and reviews tracking, and van listings. Features Firebase auth, filters, and nested routing.",
     tags: [{ name: "react", color: "blue-text-gradient" }],
-    image: "public/projects/vanlife.png",
+    image: "/projects/vanlife.png",
     source_code_link: "https://github.com/Fird4v5/VanLife",
     live_code_link: "https://vanlife.firdavs.codes",
   },
@@ -227,7 +227,7 @@ const projectsInfo = [
     description:
       "Create memes with custom text and drag positioning. Includes next-meme navigation and download option for quick sharing.",
     tags: [{ name: "react", color: "blue-text-gradient" }],
-    image: "public/projects/meme.png",
+    image: "/projects/meme.png",
     source_code_link: "https://github.com/Fird4v5/Meme-Generator",
     live_code_link: "https://meme-generator.firdavs.codes",
   },
@@ -237,7 +237,7 @@ const projectsInfo = [
     description:
       "A word-guessing game where each wrong attempt eliminates a programming language. Survive 8 tries to win with a confetti finale.",
     tags: [{ name: "react", color: "blue-text-gradient" }],
-    image: "public/projects/assembly.png",
+    image: "/projects/assembly.png",
     source_code_link: "https://github.com/Fird4v5/Assembly-EndGame",
     live_code_link: "https://assembly-endgame.firdavs.codes",
   },
@@ -247,7 +247,7 @@ const projectsInfo = [
     description:
       "A dice game where you freeze and roll until all match. Win with a confetti celebration once every die shows the same number.",
     tags: [{ name: "react", color: "blue-text-gradient" }],
-    image: "public/projects/tenzies.png",
+    image: "/projects/tenzies.png",
     source_code_link: "https://github.com/Fird4v5/Tenzies-Game",
     live_code_link: "https://tenzies.firdavs.codes",
   },
@@ -257,7 +257,7 @@ const projectsInfo = [
     description:
       "Search Pokémon by name or ID to see images, stats, and details. Clean UI with instant data fetching.",
     tags: [{ name: "javascript", color: "green-text-gradient" }],
-    image: "public/projects/pokemon.png",
+    image: "/projects/pokemon.png",
     source_code_link:
       "https://github.com/Fird4v5/JavaScript-Vanilla-Projects/tree/main/BASIC%20projects/Pokemon%20Search%20App",
     live_code_link: "https://pokemon-search.firdavs.codes",
@@ -268,7 +268,7 @@ const projectsInfo = [
     description:
       "Create, toggle, and delete tasks with persistent local storage. Simple design for managing daily tasks.",
     tags: [{ name: "javascript", color: "green-text-gradient" }],
-    image: "public/projects/todolist.png",
+    image: "/projects/todolist.png",
     source_code_link:
       "https://github.com/Fird4v5/JavaScript-Vanilla-Projects/tree/main/BASIC%20projects/ToDoList",
     live_code_link: "https://to-do-list.firdavs.codes",
@@ -279,7 +279,7 @@ const projectsInfo = [
     description:
       "Convert numbers into Roman numerals instantly with a polished, minimal design.",
     tags: [{ name: "javascript", color: "green-text-gradient" }],
-    image: "public/projects/roman.png",
+    image: "/projects/roman.png",
     source_code_link:
       "https://github.com/Fird4v5/JavaScript-Vanilla-Projects/tree/main/BASIC%20projects/Roman%20Numeral%20Converter",
     live_code_link: "https://roman-numeral-converter.firdavs.codes",
@@ -290,7 +290,7 @@ const projectsInfo = [
     description:
       "Check if text reads the same backward and forward with a clean, instant validator.",
     tags: [{ name: "javascript", color: "green-text-gradient" }],
-    image: "public/projects/palindrome.png",
+    image: "/projects/palindrome.png",
     source_code_link:
       "https://github.com/Fird4v5/JavaScript-Vanilla-Projects/tree/main/BASIC%20projects/Palindrome%20Checker",
     live_code_link: "https://palindrome-checker.firdavs.codes",
@@ -301,7 +301,7 @@ const projectsInfo = [
     description:
       "Convert values between metric and imperial units with a simple, responsive UI.",
     tags: [{ name: "javascript", color: "green-text-gradient" }],
-    image: "public/projects/lengthConverter.png",
+    image: "/projects/lengthConverter.png",
     source_code_link:
       "https://github.com/Fird4v5/JavaScript-Vanilla-Projects/tree/main/BASIC%20projects/Length%20Converter",
     live_code_link: "https://length-converter.firdavs.codes",
@@ -312,7 +312,7 @@ const projectsInfo = [
     description:
       "A responsive gallery with lightbox, navigation controls, and captions for a modern experience.",
     tags: [{ name: "javascript", color: "green-text-gradient" }],
-    image: "public/projects/imageGallery.png",
+    image: "/projects/imageGallery.png",
     source_code_link:
       "https://github.com/Fird4v5/JavaScript-Vanilla-Projects/tree/main/BASIC%20projects/Image%20Gallery",
     live_code_link: "https://image-gallery.firdavs.codes",
@@ -323,7 +323,7 @@ const projectsInfo = [
     description:
       "Simulates a cash register that calculates change with correct denominations over time.",
     tags: [{ name: "javascript", color: "green-text-gradient" }],
-    image: "public/projects/cashRegister.png",
+    image: "/projects/cashRegister.png",
     source_code_link:
       "https://github.com/Fird4v5/JavaScript-Vanilla-Projects/tree/main/BASIC%20projects/Cash%20Register",
     live_code_link: "https://cash-register.firdavs.codes",
@@ -334,7 +334,7 @@ const projectsInfo = [
     description:
       "A responsive calculator with standard functions and a clean, intuitive design.",
     tags: [{ name: "javascript", color: "green-text-gradient" }],
-    image: "public/projects/calculator.png",
+    image: "/projects/calculator.png",
     source_code_link:
       "https://github.com/Fird4v5/JavaScript-Vanilla-Projects/tree/main/BASIC%20projects/Calculator",
     live_code_link: "https://calculator.firdavs.codes",
@@ -348,7 +348,7 @@ const projectsInfo = [
       { name: "html", color: "green-text-gradient" },
       { name: "css", color: "blue-text-gradient" },
     ],
-    image: "public/projects/personalPortfolio.png",
+    image: "/projects/personalPortfolio.png",
     source_code_link:
       "https://github.com/Fird4v5/HTML-CSS-Vanilla-Projects/tree/main/Responsive%20Web%20Design/Personal%20Portfolio%20Webpage",
     live_code_link: "https://personal-portfolio.firdavs.codes",
@@ -362,7 +362,7 @@ const projectsInfo = [
       { name: "html", color: "green-text-gradient" },
       { name: "css", color: "blue-text-gradient" },
     ],
-    image: "public/projects/amphora.png",
+    image: "/projects/amphora.png",
     source_code_link:
       "https://github.com/Fird4v5/HTML-CSS-Vanilla-Projects/tree/main/Responsive%20Web%20Design/Product%20Landing%20Page",
     live_code_link: "https://amphora.firdavs.codes",
@@ -376,7 +376,7 @@ const projectsInfo = [
       { name: "html", color: "green-text-gradient" },
       { name: "css", color: "blue-text-gradient" },
     ],
-    image: "public/projects/surveyForm.png",
+    image: "/projects/surveyForm.png",
     source_code_link:
       "https://github.com/Fird4v5/HTML-CSS-Vanilla-Projects/tree/main/Responsive%20Web%20Design/Survey%20Form",
     live_code_link: "https://survey-form.firdavs.codes",
@@ -390,7 +390,7 @@ const projectsInfo = [
       { name: "html", color: "green-text-gradient" },
       { name: "css", color: "blue-text-gradient" },
     ],
-    image: "public/projects/technicalD.png",
+    image: "/projects/technicalD.png",
     source_code_link:
       "https://github.com/Fird4v5/HTML-CSS-Vanilla-Projects/tree/main/Responsive%20Web%20Design/Technical%20Documentation%20Page",
     live_code_link: "https://technical-documentation.firdavs.codes",
@@ -404,7 +404,7 @@ const projectsInfo = [
       { name: "html", color: "green-text-gradient" },
       { name: "css", color: "blue-text-gradient" },
     ],
-    image: "public/projects/tribute.png",
+    image: "/projects/tribute.png",
     source_code_link:
       "https://github.com/Fird4v5/HTML-CSS-Vanilla-Projects/tree/main/Responsive%20Web%20Design/Tribute%20Page",
     live_code_link: "https://tribute.firdavs.codes",

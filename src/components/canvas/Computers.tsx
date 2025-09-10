@@ -96,4 +96,4 @@ const ComputersCanvas = () => {
 export default ComputersCanvas;
 
 // Preload GLTF for better perf
-useGLTF.preload("./desktop_pc/scene.gltf");
+useGLTF.preload("./desktop_pc/scene-optimized.glb");
