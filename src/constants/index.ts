@@ -207,7 +207,7 @@ const projectsInfo = [
       { name: "graphql", color: "pink-text-gradient" },
       { name: "refine", color: "green-text-gradient" },
     ],
-    image: "/projects/refineD.png",
+    image: "/projects/refineD.webp",
     source_code_link: "https://github.com/Fird4v5/Refine-Dashboard",
     live_code_link: "https://refine-dashboard.firdavs.codes",
   },
@@ -348,7 +348,7 @@ const projectsInfo = [
       { name: "html", color: "green-text-gradient" },
       { name: "css", color: "blue-text-gradient" },
     ],
-    image: "/projects/personalPortfolio.png",
+    image: "/projects/personalPortfolio.webp",
     source_code_link:
       "https://github.com/Fird4v5/HTML-CSS-Vanilla-Projects/tree/main/Responsive%20Web%20Design/Personal%20Portfolio%20Webpage",
     live_code_link: "https://personal-portfolio.firdavs.codes",
@@ -362,7 +362,7 @@ const projectsInfo = [
       { name: "html", color: "green-text-gradient" },
       { name: "css", color: "blue-text-gradient" },
     ],
-    image: "/projects/amphora.png",
+    image: "/projects/amphora.webp",
     source_code_link:
       "https://github.com/Fird4v5/HTML-CSS-Vanilla-Projects/tree/main/Responsive%20Web%20Design/Product%20Landing%20Page",
     live_code_link: "https://amphora.firdavs.codes",
@@ -376,7 +376,7 @@ const projectsInfo = [
       { name: "html", color: "green-text-gradient" },
       { name: "css", color: "blue-text-gradient" },
     ],
-    image: "/projects/surveyForm.png",
+    image: "/projects/surveyForm.webp",
     source_code_link:
       "https://github.com/Fird4v5/HTML-CSS-Vanilla-Projects/tree/main/Responsive%20Web%20Design/Survey%20Form",
     live_code_link: "https://survey-form.firdavs.codes",
@@ -390,7 +390,7 @@ const projectsInfo = [
       { name: "html", color: "green-text-gradient" },
       { name: "css", color: "blue-text-gradient" },
     ],
-    image: "/projects/technicalD.png",
+    image: "/projects/technicalD.webp",
     source_code_link:
       "https://github.com/Fird4v5/HTML-CSS-Vanilla-Projects/tree/main/Responsive%20Web%20Design/Technical%20Documentation%20Page",
     live_code_link: "https://technical-documentation.firdavs.codes",
@@ -404,7 +404,7 @@ const projectsInfo = [
       { name: "html", color: "green-text-gradient" },
       { name: "css", color: "blue-text-gradient" },
     ],
-    image: "/projects/tribute.png",
+    image: "/projects/tribute.webp",
     source_code_link:
       "https://github.com/Fird4v5/HTML-CSS-Vanilla-Projects/tree/main/Responsive%20Web%20Design/Tribute%20Page",
     live_code_link: "https://tribute.firdavs.codes",
